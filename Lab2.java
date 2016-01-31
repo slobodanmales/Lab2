@@ -38,7 +38,7 @@ public class Lab2 {
 	    // all of the wives, sacks, cats, and kittens are as well, along
 	    // with the narrator.
 	    // Calculate the number going to St. Ives
-	    total = 1+1+7+7*7+7*7*7;
+	    total = 1+1+7+7*7*7+7*7*7*7;
 	} else {
 	    // Otherwise, only the narrator is going!
 	    total = 1;
@@ -48,7 +48,9 @@ public class Lab2 {
 	// "Number going to St. Ives is " and then, on the same line,
 	// the number going to St. Ives (stored in the _total_ variable).
 	// Add a statement or statements that will do this.
-	
+
+	System.out.println("Number going to St. Ives is " + total);
+
     }
     
 }
