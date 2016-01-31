@@ -16,17 +16,17 @@ public class Lab2 {
 	// Assume that the original man is also going to St. Ives, so
 	// the boolean variable manGoingToStIves should be true.
 	
-	boolean manGoingToStIves = !true;
+	boolean manGoingToStIves = true;
 
-	short numWives = 8;
+	int numWives = 8;
 
-	int numSacksPerWife = (double) 7;
+	int numSacksPerWife = 7;
 	
-	int numCatsPerSack = 7.0;
+	int numCatsPerSack = 7;
 
-	int numKitsPerCat = (long) 7;
+	int numKitsPerCat = 7;
 
-	byte total;
+	int total;
 
 	// If the original man is going to St. Ives, then all are going
 	// the narrator, original man, kitten, cats, sacks, wives.
